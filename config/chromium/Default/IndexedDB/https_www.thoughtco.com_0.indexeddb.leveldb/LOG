@@ -1,0 +1,9 @@
+2018/02/16-15:39:16.030 3284 Reusing MANIFEST /home/thomas/.config/chromium/Default/IndexedDB/https_www.thoughtco.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/02/16-15:39:17.399 3286 Current memtable full; waiting...
+2018/02/16-15:39:17.399 3334 Level-0 table #5: started
+2018/02/16-15:39:17.401 3334 Level-0 table #5: 424 bytes OK
+2018/02/16-15:39:17.403 3334 Delete type=0 #3
+2018/02/16-15:39:17.404 3334 Level-0 table #7: started
+2018/02/16-15:39:17.404 3334 Level-0 table #7: 0 bytes OK
+2018/02/16-15:39:17.406 3334 Delete type=0 #4
+2018/02/16-15:39:17.406 3334 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

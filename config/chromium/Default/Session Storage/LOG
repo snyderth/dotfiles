@@ -1,0 +1,18 @@
+2018/08/19-06:33:11.694 946 Reusing MANIFEST /home/thomas/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/08/19-06:33:11.694 946 Recovering log #400
+2018/08/19-06:33:11.694 946 Reusing old log /home/thomas/.config/chromium/Default/Session Storage/000400.log 
+2018/08/19-06:33:30.718 1334 Level-0 table #404: started
+2018/08/19-06:33:30.726 1334 Level-0 table #404: 16764 bytes OK
+2018/08/19-06:33:30.740 1334 Delete type=0 #400
+2018/08/19-07:32:12.776 1334 Level-0 table #406: started
+2018/08/19-07:32:12.783 1334 Level-0 table #406: 29471 bytes OK
+2018/08/19-07:32:12.791 1334 Delete type=0 #403
+2018/08/19-07:32:12.791 1334 Compacting 4@0 + 1@1 files
+2018/08/19-07:32:12.810 1334 Generated table #407@0: 4801 keys, 147028 bytes
+2018/08/19-07:32:12.810 1334 Compacted 4@0 + 1@1 files => 147028 bytes
+2018/08/19-07:32:12.818 1334 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/08/19-07:32:12.819 1334 Delete type=2 #398
+2018/08/19-07:32:12.819 1334 Delete type=2 #406
+2018/08/19-07:32:12.819 1334 Delete type=2 #396
+2018/08/19-07:32:12.819 1334 Delete type=2 #404
+2018/08/19-07:32:12.819 1334 Delete type=2 #401

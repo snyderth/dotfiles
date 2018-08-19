@@ -1,0 +1,3 @@
+[Bookmarks]
+[Recent]
+/home/thomas/GRITSBot_hardware_design/pcb_design/motor_brackets/

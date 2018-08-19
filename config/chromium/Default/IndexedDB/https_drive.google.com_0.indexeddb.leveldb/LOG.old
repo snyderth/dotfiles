@@ -1,0 +1,52 @@
+2018/08/18-18:59:21.617 1626 Reusing MANIFEST /home/thomas/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/08/18-18:59:21.618 1626 Recovering log #687
+2018/08/18-18:59:21.625 1626 Reusing old log /home/thomas/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000687.log 
+2018/08/18-18:59:49.336 1980 Level-0 table #693: started
+2018/08/18-18:59:49.384 1980 Level-0 table #693: 4648958 bytes OK
+2018/08/18-18:59:49.390 1980 Delete type=0 #687
+2018/08/18-18:59:52.635 1980 Level-0 table #695: started
+2018/08/18-18:59:52.680 1980 Level-0 table #695: 4446978 bytes OK
+2018/08/18-18:59:52.683 1980 Delete type=0 #692
+2018/08/18-19:04:14.855 1980 Level-0 table #697: started
+2018/08/18-19:04:14.915 1980 Level-0 table #697: 7818114 bytes OK
+2018/08/18-19:04:14.919 1980 Delete type=0 #694
+2018/08/18-19:09:16.008 1980 Level-0 table #699: started
+2018/08/18-19:09:16.050 1980 Level-0 table #699: 4402965 bytes OK
+2018/08/18-19:09:16.055 1980 Delete type=0 #696
+2018/08/18-19:09:16.056 1980 Compacting 4@0 + 2@1 files
+2018/08/18-19:09:16.122 1980 Generated table #700@0: 80 keys, 4396287 bytes
+2018/08/18-19:09:16.135 1980 Generated table #701@0: 94 keys, 240558 bytes
+2018/08/18-19:09:16.136 1980 Compacted 4@0 + 2@1 files => 4636845 bytes
+2018/08/18-19:09:16.140 1980 compacted to: files[ 0 2 4 0 0 0 0 ]
+2018/08/18-19:09:16.140 1980 Delete type=2 #693
+2018/08/18-19:09:16.142 1980 Delete type=2 #697
+2018/08/18-19:09:16.145 1980 Delete type=2 #690
+2018/08/18-19:09:16.145 1980 Delete type=2 #689
+2018/08/18-19:09:16.146 1980 Delete type=2 #695
+2018/08/18-19:09:16.148 1980 Delete type=2 #699
+2018/08/18-19:19:16.949 1980 Level-0 table #703: started
+2018/08/18-19:19:16.990 1980 Level-0 table #703: 4209810 bytes OK
+2018/08/18-19:19:16.995 1980 Delete type=0 #698
+2018/08/18-19:29:18.578 1980 Level-0 table #705: started
+2018/08/18-19:29:18.619 1980 Level-0 table #705: 4397669 bytes OK
+2018/08/18-19:29:18.624 1980 Delete type=0 #702
+2018/08/18-19:49:19.897 1980 Level-0 table #707: started
+2018/08/18-19:49:19.955 1980 Level-0 table #707: 7818118 bytes OK
+2018/08/18-19:49:19.961 1980 Delete type=0 #704
+2018/08/18-19:59:19.965 1980 Level-0 table #709: started
+2018/08/18-19:59:20.002 1980 Level-0 table #709: 4446981 bytes OK
+2018/08/18-19:59:20.005 1980 Delete type=0 #706
+2018/08/18-19:59:20.006 1980 Compacting 4@0 + 2@1 files
+2018/08/18-19:59:20.069 1980 Generated table #710@0: 80 keys, 4396289 bytes
+2018/08/18-19:59:20.087 1980 Generated table #711@0: 94 keys, 240558 bytes
+2018/08/18-19:59:20.087 1980 Compacted 4@0 + 2@1 files => 4636847 bytes
+2018/08/18-19:59:20.097 1980 compacted to: files[ 0 2 4 0 0 0 0 ]
+2018/08/18-19:59:20.097 1980 Delete type=2 #700
+2018/08/18-19:59:20.099 1980 Delete type=2 #703
+2018/08/18-19:59:20.099 1980 Delete type=2 #709
+2018/08/18-19:59:20.100 1980 Delete type=2 #705
+2018/08/18-19:59:20.101 1980 Delete type=2 #701
+2018/08/18-19:59:20.101 1980 Delete type=2 #707
+2018/08/18-20:09:20.505 1980 Level-0 table #713: started
+2018/08/18-20:09:20.559 1980 Level-0 table #713: 4397706 bytes OK
+2018/08/18-20:09:20.565 1980 Delete type=0 #708

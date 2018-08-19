@@ -21,9 +21,13 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1534529929,,"wq"
+|2,0,1534689406,,"wq"
 :q
-|2,0,1534529317,,"q"
+|2,0,1534650951,,"q"
+:vsp /etc/X11/xinit/xinitrc
+|2,0,1534650208,,"vsp /etc/X11/xinit/xinitrc"
+:sp .xinitrc
+|2,0,1534542284,,"sp .xinitrc"
 :q!
 |2,0,1534527406,,"q!"
 :vsp .config/i3/config
@@ -175,301 +179,410 @@ $
 
 # Registers:
 "0	CHAR	0
-	#
-|3,0,0,0,1,0,1534529309,"#"
+	if [ -d /etc/X11/xinit/xinitrc.d ] ; then
+	 for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
+	  [ -x "$f" ] && . "$f"
+	 done
+	 unset f
+	fi
+	
+	
+|3,0,0,0,8,0,1534542280,"if [ -d /etc/X11/xinit/xinitrc.d ] ; then"," for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do","  [ -x \"$f\" ] && . \"$f\""," done"," unset f","fi","",""
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1534529882,""
+	cp -r ~/.config/xfce4/* ~/dotfiles/xfce4-panel
+|3,1,1,1,1,0,1534689404,"cp -r ~/.config/xfce4/* ~/dotfiles/xfce4-panel"
 "2	LINE	0
-	#exec /usr/lib/xfce4/nodtifyd/xfce4-notifyd
-|3,0,2,1,1,0,1534526735,"#exec /usr/lib/xfce4/nodtifyd/xfce4-notifyd"
+	cp ~/.config/i3/config ~/dotfiles/i3
+|3,0,2,1,1,0,1534689404,"cp ~/.config/i3/config ~/dotfiles/i3"
 "3	LINE	0
-	exec /usr/lib/xfce4
-|3,0,3,1,1,0,1534526606,"exec /usr/lib/xfce4"
+	# Notifications
+|3,0,3,1,1,0,1534650654,"# Notifications"
 "4	LINE	0
-	exec /usr/lib/xfce4
-|3,0,4,1,1,0,1534526600,"exec /usr/lib/xfce4"
-"5	CHAR	0
-	exec /usr/lib/xfce4/nodtifyd/xfce4-notifyd
-	exec xfce4-panel
-	
-	
-|3,0,5,0,4,0,1534526263,"exec /usr/lib/xfce4/nodtifyd/xfce4-notifyd","exec xfce4-panel","",""
-"6	LINE	0
-	# send_message(sock, UDP_PORT_OUT, messenger.MSG_STOP_ALL_ROBOTS)
-|3,0,6,1,1,0,1534368118,"# send_message(sock, UDP_PORT_OUT, messenger.MSG_STOP_ALL_ROBOTS)"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1534368113,""
-"8	LINE	0
-	
-|3,0,8,1,1,0,1534368113,""
-"9	LINE	0
-	
-|3,0,9,1,1,0,1534368112,""
-"-	CHAR	0
 	#
-|3,0,36,0,1,0,1534526740,"#"
+|3,0,4,1,1,0,1534650654,"#"
+"5	LINE	0
+	./start_notifs.sh
+|3,0,5,1,1,0,1534650653,"./start_notifs.sh"
+"6	LINE	0
+	/usr/lib/xfce4/notifyd/xfce4-notifyd
+|3,0,6,1,1,0,1534650607,"/usr/lib/xfce4/notifyd/xfce4-notifyd"
+"7	CHAR	0
+	# Notifications
+	#
+	/usr/lib/xfce4/notifyd/xfce4-notifyd
+	
+	
+|3,0,7,0,5,0,1534650538,"# Notifications","#","/usr/lib/xfce4/notifyd/xfce4-notifyd","",""
+"8	LINE	0
+	dbus-update-activation-environment --systemd --all
+|3,0,8,1,1,0,1534650420,"dbus-update-activation-environment --systemd --all"
+"9	LINE	0
+	dbus-launch
+|3,0,9,1,1,0,1534650236,"dbus-launch"
+"-	CHAR	0
+	/
+|3,0,36,0,1,0,1534650443,"/"
 
 # File marks:
-'0  8  18  ~/dotfiles/backup_dots.sh
-|4,48,8,18,1534529929,"~/dotfiles/backup_dots.sh"
-'1  12  2  ~/dotfiles/backup_dots.sh
-|4,49,12,2,1534529646,"~/dotfiles/backup_dots.sh"
-'2  6  2  ~/dotfiles/backup_dots.sh
-|4,50,6,2,1534529646,"~/dotfiles/backup_dots.sh"
-'3  7  0  ~/dotfiles/backup_dots.sh
-|4,51,7,0,1534529620,"~/dotfiles/backup_dots.sh"
-'4  7  0  ~/dotfiles/backup_dots.sh
-|4,52,7,0,1534529620,"~/dotfiles/backup_dots.sh"
-'5  1  0  ~/dotfiles/backup_dots.sh
-|4,53,1,0,1534529620,"~/dotfiles/backup_dots.sh"
-'6  1  0  ~/dotfiles/backup_dots.sh
-|4,54,1,0,1534529620,"~/dotfiles/backup_dots.sh"
-'7  10  31  ~/dotfiles/backup_dots.sh
-|4,55,10,31,1534529606,"~/dotfiles/backup_dots.sh"
-'8  10  31  ~/dotfiles/backup_dots.sh
-|4,56,10,31,1534529606,"~/dotfiles/backup_dots.sh"
-'9  10  31  ~/dotfiles/backup_dots.sh
-|4,57,10,31,1534529606,"~/dotfiles/backup_dots.sh"
+'0  5  0  ~/dotfiles/backup_dots.sh
+|4,48,5,0,1534689406,"~/dotfiles/backup_dots.sh"
+'1  4  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,49,4,0,1534650951,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+'2  43  42  ~/.xinitrc
+|4,50,43,42,1534650938,"~/.xinitrc"
+'3  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,51,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+'4  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,52,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+'5  113  0  ~/.zshrc
+|4,53,113,0,1534650656,"~/.zshrc"
+'6  114  16  ~/.zshrc
+|4,54,114,16,1534650633,"~/.zshrc"
+'7  116  16  ~/.zshrc
+|4,55,116,16,1534650633,"~/.zshrc"
+'8  115  0  ~/.zshrc
+|4,56,115,0,1534650569,"~/.zshrc"
+'9  118  0  ~/.zshrc
+|4,57,118,0,1534650569,"~/.zshrc"
 
 # Jumplist (newest first):
--'  8  18  ~/dotfiles/backup_dots.sh
-|4,39,8,18,1534529929,"~/dotfiles/backup_dots.sh"
--'  7  0  ~/dotfiles/backup_dots.sh
-|4,39,7,0,1534529705,"~/dotfiles/backup_dots.sh"
--'  12  2  ~/dotfiles/backup_dots.sh
-|4,39,12,2,1534529646,"~/dotfiles/backup_dots.sh"
--'  6  2  ~/dotfiles/backup_dots.sh
-|4,39,6,2,1534529646,"~/dotfiles/backup_dots.sh"
+-'  5  0  ~/dotfiles/backup_dots.sh
+|4,39,5,0,1534689406,"~/dotfiles/backup_dots.sh"
 -'  1  0  ~/dotfiles/backup_dots.sh
-|4,39,1,0,1534529626,"~/dotfiles/backup_dots.sh"
--'  1  0  ~/dotfiles/backup_dots.sh
-|4,39,1,0,1534529620,"~/dotfiles/backup_dots.sh"
--'  10  31  ~/dotfiles/backup_dots.sh
-|4,39,10,31,1534529606,"~/dotfiles/backup_dots.sh"
--'  4  31  ~/dotfiles/backup_dots.sh
-|4,39,4,31,1534529606,"~/dotfiles/backup_dots.sh"
--'  4  31  ~/dotfiles/backup_dots.sh
-|4,39,4,31,1534529606,"~/dotfiles/backup_dots.sh"
--'  4  31  ~/dotfiles/backup_dots.sh
-|4,39,4,31,1534529606,"~/dotfiles/backup_dots.sh"
--'  1  0  ~/dotfiles/backup_dots.sh
-|4,39,1,0,1534529581,"~/dotfiles/backup_dots.sh"
--'  4  5  ~/dotfiles/backup_dots.sh
-|4,39,4,5,1534529544,"~/dotfiles/backup_dots.sh"
--'  1  0  ~/dotfiles/backup_dots.sh
-|4,39,1,0,1534529477,"~/dotfiles/backup_dots.sh"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  8  0  /var/lib/pacman/local
-|4,39,8,0,1534529317,"/var/lib/pacman/local"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
--'  15  0  ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-|4,39,15,0,1534528125,"~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL"
+|4,39,1,0,1534689377,"~/dotfiles/backup_dots.sh"
+-'  4  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,39,4,0,1534650951,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+-'  4  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,39,4,0,1534650951,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+-'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,39,1,0,1534650940,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+-'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,39,1,0,1534650940,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+-'  43  42  ~/.xinitrc
+|4,39,43,42,1534650938,"~/.xinitrc"
+-'  43  42  ~/.xinitrc
+|4,39,43,42,1534650938,"~/.xinitrc"
+-'  43  42  ~/.xinitrc
+|4,39,43,42,1534650938,"~/.xinitrc"
+-'  43  42  ~/.xinitrc
+|4,39,43,42,1534650938,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1534650906,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1534650906,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1534650906,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1534650906,"~/.xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,39,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+-'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,39,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+-'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,39,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+-'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|4,39,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1534650656,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  13  0  ~/.zshrc
+|4,39,13,0,1534650652,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650649,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  114  16  ~/.zshrc
+|4,39,114,16,1534650633,"~/.zshrc"
+-'  116  16  ~/.zshrc
+|4,39,116,16,1534650633,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650605,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534650605,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/dotfiles/backup_dots.sh
-	*	1534529929	0
-	"	8	18
-	^	8	19
-	.	8	18
-	+	10	31
-	+	12	2
-	+	6	46
-	+	7	0
-	+	8	18
-
-> ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
-	*	1534528121	0
-	"	15	0
-
-> ~/Downloads/xfce4-indicator-plugin-0.3.0.0/README
-	*	1534528107	0
-	"	1	0
+	*	1534689404	0
+	"	5	0
+	^	7	22
+	.	5	0
+	+	8	31
+	+	10	2
+	+	5	46
+	+	5	0
+	+	6	18
+	+	7	21
+	+	5	0
 
 > /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-	*	1534527838	0
-	"	1	0
+	*	1534650949	0
+	"	4	0
 
 > ~/.xinitrc
-	*	1534527799	0
-	"	55	0
+	*	1534650938	0
+	"	43	42
+	^	43	43
+	.	43	42
+	+	44	0
+	+	43	42
+
+> ~/.zshrc
+	*	1534650654	0
+	"	113	0
+	.	114	0
+	+	2	0
+	+	3	0
+	+	2	0
+	+	30	0
+	+	11	0
+	+	1	0
+	+	2	0
+	+	26	0
+	+	28	0
+	+	12	0
+	+	11	0
+	+	12	20
+	+	13	0
+	+	35	0
+	+	94	0
+	+	95	0
+	+	96	1
+	+	98	0
+	+	104	0
+	+	81	9
+	+	82	0
+	+	21	0
+	+	19	0
+	+	16	12
+	+	14	34
+	+	19	0
+	+	20	0
+	+	20	35
+	+	20	0
+	+	21	0
+	+	114	0
+	+	114	7
+	+	114	0
+
+> /etc/X11/xinit/xinitrc
+	*	1534650231	0
+	"	42	0
+
+> ~/.Xresources
+	*	1534649534	0
+	"	1	0
+	^	77	80
+	.	77	79
+	+	14	28
+	+	15	28
+	+	43	29
+	+	3	0
+	+	2	0
+	+	1	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	56	0
+	+	57	0
+	+	59	0
+	+	60	0
+	+	61	0
+	+	62	0
+	+	63	0
+	+	65	0
+	+	66	0
+	+	76	0
+	+	83	0
+	+	86	0
+	+	89	0
+	+	66	5
+	+	6	0
+	+	5	20
+	+	6	19
+	+	5	19
+	+	23	16
+	+	22	15
+	+	34	15
+	+	35	16
+	+	22	7
+	+	23	6
+	+	6	19
+	+	74	24
+	+	34	15
+	+	67	15
+	+	77	0
+	+	78	0
+	+	79	0
+	+	81	0
+	+	79	0
+	+	78	0
+	+	77	79
+
+> ~/.Xauthority
+	*	1534649527	0
+	"	1	0
+
+> /usr/share/arduino/hardware/teensy/avr/libraries/Wire/Wire.h
+	*	1534535775	0
+	"	1	0
+
+> /usr/include/X11/extensions/xcalibratewire.h
+	*	1534535769	0
+	"	1	0
 
 > ~/.config/i3/config
-	*	1534527468	0
-	"	1	0
-	^	38	1
-	.	40	0
-	+	22	15
+	*	1534531144	0
+	"	12	11
+	^	12	12
+	.	12	11
 	+	22	16
 	+	22	0
 	+	32	0
@@ -569,6 +682,29 @@ $
 	+	40	0
 	+	38	0
 	+	40	0
+	+	12	11
+
+> ~/start_notifs.sh
+	*	1534531047	0
+	"	1	0
+	^	1	36
+	.	1	35
+	+	1	35
+
+> ~/dotfiles/README.md
+	*	1534530200	0
+	"	3	105
+	^	3	106
+	.	3	106
+	+	3	106
+
+> ~/Downloads/xfce4-indicator-plugin-0.3.0.0/INSTALL
+	*	1534528121	0
+	"	15	0
+
+> ~/Downloads/xfce4-indicator-plugin-0.3.0.0/README
+	*	1534528107	0
+	"	1	0
 
 > ~/config
 	*	1534527442	0
@@ -580,13 +716,6 @@ $
 	^	5	30
 	.	5	29
 	+	5	29
-
-> ~/start_notifs.sh
-	*	1534527051	0
-	"	1	35
-	^	1	36
-	.	1	35
-	+	1	35
 
 > ~/.config/i3/start_notifs.sh
 	*	1534526642	0
@@ -622,37 +751,6 @@ $
 > /usr/share/xfce4/helpers/sakura.desktop
 	*	1534374512	0
 	"	63	0
-
-> ~/.zshrc
-	*	1534373455	0
-	"	14	34
-	^	14	35
-	.	14	34
-	+	2	0
-	+	3	0
-	+	2	0
-	+	30	0
-	+	11	0
-	+	1	0
-	+	2	0
-	+	26	0
-	+	28	0
-	+	12	0
-	+	11	0
-	+	12	20
-	+	13	0
-	+	35	0
-	+	94	0
-	+	95	0
-	+	96	1
-	+	98	0
-	+	104	0
-	+	81	9
-	+	82	0
-	+	21	0
-	+	19	0
-	+	16	12
-	+	14	34
 
 > /usr/share/themes/Raleigh/gtk-2.0/gtkrc
 	*	1534372988	0
@@ -910,56 +1008,6 @@ $
 > ~/GRITSBot_firmware/GRITSBot_Main/GRITSBot_Main_ESP8266.pp
 	*	1534268508	0
 	"	1	0
-
-> ~/.Xresources
-	*	1534266213	0
-	"	77	79
-	^	77	80
-	.	77	79
-	+	14	28
-	+	15	28
-	+	43	29
-	+	3	0
-	+	2	0
-	+	1	0
-	+	46	0
-	+	47	0
-	+	48	0
-	+	56	0
-	+	57	0
-	+	59	0
-	+	60	0
-	+	61	0
-	+	62	0
-	+	63	0
-	+	65	0
-	+	66	0
-	+	76	0
-	+	83	0
-	+	86	0
-	+	89	0
-	+	66	5
-	+	6	0
-	+	5	20
-	+	6	19
-	+	5	19
-	+	23	16
-	+	22	15
-	+	34	15
-	+	35	16
-	+	22	7
-	+	23	6
-	+	6	19
-	+	74	24
-	+	34	15
-	+	67	15
-	+	77	0
-	+	78	0
-	+	79	0
-	+	81	0
-	+	79	0
-	+	78	0
-	+	77	79
 
 > ~/.zshrc.pre-oh-my-zsh
 	*	1534265202	0
@@ -1412,31 +1460,3 @@ $
 > ~/crazyflie-clients-python/README.md
 	*	1529441716	0
 	"	1	0
-
-> ~/crazyflie-clients-python/setup.py
-	*	1529441692	0
-	"	119	0
-
-> /usr/bin/linux64
-	*	1529434164	0
-	"	1	0
-
-> ~/KicadProjects/ad7764/footprintsAndSymbols/KiCAD/KiCAD/readme.txt
-	*	1528909208	0
-	"	30	0
-
-> ~/twitter_bot/package.json
-	*	1528326569	0
-	"	1	0
-
-> ~/polybar/src/polybar/lib/i3ipcpp/src/ipc.cpp
-	*	1526794742	0
-	"	29	0
-	^	22	0
-	.	33	0
-	+	22	1
-	+	33	67
-	+	33	0
-	+	22	0
-	+	32	0
-	+	33	0

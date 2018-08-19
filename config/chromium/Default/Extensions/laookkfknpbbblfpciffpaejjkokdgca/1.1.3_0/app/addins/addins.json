@@ -1,0 +1,17 @@
+{
+	"addins": [
+		"settings_balance",
+		"settings_quotes",
+		"settings_backgrounds",
+		"metric",
+		"countdown",
+		"settings_todo",
+		"notes",
+		"settings_bookmarks",
+		"settings_mantras",
+		"settings_metrics",
+		"settings_trello",
+		"settings_nicknames",
+		"multi_clock"
+	]
+}

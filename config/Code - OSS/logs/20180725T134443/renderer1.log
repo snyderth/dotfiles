@@ -1,0 +1,110 @@
+[2018-07-25 13:44:58.742] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 13:45:00.174] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 13:45:11.165] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 13:46:17.274] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 13:46:18.627] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 13:46:43.987] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 13:46:45.579] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 13:46:47.160] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 13:46:48.856] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 14:41:56.284] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>
+[2018-07-25 14:42:31.307] [renderer1] [error] Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+: Error: Command failed: git symbolic-ref -q HEAD
+fatal: not a git repository (or any of the parent directories): .git
+
+
+	at makeError (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:172:9)
+	at Promise.all.then.arr (/home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0/node_modules/execa/index.js:277:16)
+	at <anonymous>

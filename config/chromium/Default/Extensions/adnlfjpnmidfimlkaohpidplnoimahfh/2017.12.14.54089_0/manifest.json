@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#E62117",
+      "launch": {
+         "web_url": "https://www.youtube.com/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Share your videos with friends, family, and the world",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "264tAgSqSJ4jTrL5A6ASexfHEjhkKMqxK4bF9oqnWGc=",
+   "name": "YouTube",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://www.youtube.com/*" ],
+         "title": "YouTube"
+      }
+   },
+   "version": "2017.12.14.54089"
+}

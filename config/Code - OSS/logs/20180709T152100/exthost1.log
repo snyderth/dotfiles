@@ -1,0 +1,18 @@
+[2018-07-09 15:21:04.687] [exthost1] [info] extension host started
+[2018-07-09 15:21:04.754] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-07-09 15:21:04.754] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/emmet/out/extension
+[2018-07-09 15:21:04.878] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-07-09 15:21:04.878] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/git/out/main
+[2018-07-09 15:21:05.212] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-07-09 15:21:05.212] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/merge-conflict/out/extension
+[2018-07-09 15:21:05.238] [exthost1] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"activationEvent":"*"}
+[2018-07-09 15:21:05.238] [exthost1] [info] ExtensionService#loadCommonJSModule /home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.29.0/out/src/main
+[2018-07-09 15:21:05.721] [exthost1] [info] eager extensions activated
+[2018-07-09 15:21:45.948] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-07-09 15:21:45.948] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/configuration-editing/out/extension
+[2018-07-09 15:21:45.969] [exthost1] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-07-09 15:21:45.969] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/extension-editing/out/extension
+[2018-07-09 15:21:46.003] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-07-09 15:21:46.003] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/json-language-features/client/out/jsonMain
+[2018-07-09 15:21:46.253] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-07-09 15:21:46.253] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/npm/out/main
