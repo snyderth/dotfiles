@@ -21,25 +21,25 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1534689406,,"wq"
+|2,0,1536091241,,"wq"
+:wqa
+|2,0,1536091166,,"wqa"
+:vsp .config/i3/config
+|2,0,1536091116,,"vsp .config/i3/config"
 :q
-|2,0,1534650951,,"q"
+|2,0,1534867130,,"q"
 :vsp /etc/X11/xinit/xinitrc
 |2,0,1534650208,,"vsp /etc/X11/xinit/xinitrc"
 :sp .xinitrc
 |2,0,1534542284,,"sp .xinitrc"
 :q!
 |2,0,1534527406,,"q!"
-:vsp .config/i3/config
-|2,0,1534526590,,"vsp .config/i3/config"
 :sp ../GRITSBots_firmware_snyderth/README.md
 |2,0,1534367220,,"sp ../GRITSBots_firmware_snyderth/README.md"
 :!ls
 |2,0,1534358007,,"!ls"
 :119
 |2,0,1534353480,,"119"
-:wqa
-|2,0,1534353152,,"wqa"
 :sp swarmSequence.py
 |2,0,1534353097,,"sp swarmSequence.py"
 :191
@@ -189,290 +189,429 @@ $
 	
 |3,0,0,0,8,0,1534542280,"if [ -d /etc/X11/xinit/xinitrc.d ] ; then"," for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do","  [ -x \"$f\" ] && . \"$f\""," done"," unset f","fi","",""
 ""1	LINE	0
-	cp -r ~/.config/xfce4/* ~/dotfiles/xfce4-panel
-|3,1,1,1,1,0,1534689404,"cp -r ~/.config/xfce4/* ~/dotfiles/xfce4-panel"
+	/etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|3,1,1,1,1,0,1536091145,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
 "2	LINE	0
-	cp ~/.config/i3/config ~/dotfiles/i3
-|3,0,2,1,1,0,1534689404,"cp ~/.config/i3/config ~/dotfiles/i3"
+	/etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+|3,0,2,1,1,0,1536091122,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
 "3	LINE	0
-	# Notifications
-|3,0,3,1,1,0,1534650654,"# Notifications"
+	~/
+|3,0,3,1,1,0,1535224346,"~/"
 "4	LINE	0
-	#
-|3,0,4,1,1,0,1534650654,"#"
+	cp -r ~/.config/xfce4/* ~/dotfiles/xfce4-panel
+|3,0,4,1,1,0,1534689404,"cp -r ~/.config/xfce4/* ~/dotfiles/xfce4-panel"
 "5	LINE	0
-	./start_notifs.sh
-|3,0,5,1,1,0,1534650653,"./start_notifs.sh"
+	cp ~/.config/i3/config ~/dotfiles/i3
+|3,0,5,1,1,0,1534689404,"cp ~/.config/i3/config ~/dotfiles/i3"
 "6	LINE	0
-	/usr/lib/xfce4/notifyd/xfce4-notifyd
-|3,0,6,1,1,0,1534650607,"/usr/lib/xfce4/notifyd/xfce4-notifyd"
-"7	CHAR	0
 	# Notifications
+|3,0,6,1,1,0,1534650654,"# Notifications"
+"7	LINE	0
 	#
-	/usr/lib/xfce4/notifyd/xfce4-notifyd
-	
-	
-|3,0,7,0,5,0,1534650538,"# Notifications","#","/usr/lib/xfce4/notifyd/xfce4-notifyd","",""
+|3,0,7,1,1,0,1534650654,"#"
 "8	LINE	0
-	dbus-update-activation-environment --systemd --all
-|3,0,8,1,1,0,1534650420,"dbus-update-activation-environment --systemd --all"
+	./start_notifs.sh
+|3,0,8,1,1,0,1534650653,"./start_notifs.sh"
 "9	LINE	0
-	dbus-launch
-|3,0,9,1,1,0,1534650236,"dbus-launch"
+	/usr/lib/xfce4/notifyd/xfce4-notifyd
+|3,0,9,1,1,0,1534650607,"/usr/lib/xfce4/notifyd/xfce4-notifyd"
 "-	CHAR	0
-	/
-|3,0,36,0,1,0,1534650443,"/"
+	 
+|3,0,36,0,1,0,1536091106," "
 
 # File marks:
-'0  5  0  ~/dotfiles/backup_dots.sh
-|4,48,5,0,1534689406,"~/dotfiles/backup_dots.sh"
-'1  4  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,49,4,0,1534650951,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
-'2  43  42  ~/.xinitrc
-|4,50,43,42,1534650938,"~/.xinitrc"
-'3  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,51,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
-'4  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,52,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
-'5  113  0  ~/.zshrc
-|4,53,113,0,1534650656,"~/.zshrc"
-'6  114  16  ~/.zshrc
-|4,54,114,16,1534650633,"~/.zshrc"
-'7  116  16  ~/.zshrc
-|4,55,116,16,1534650633,"~/.zshrc"
-'8  115  0  ~/.zshrc
-|4,56,115,0,1534650569,"~/.zshrc"
-'9  118  0  ~/.zshrc
-|4,57,118,0,1534650569,"~/.zshrc"
+'0  208  4  ~/.config/i3/config
+|4,48,208,4,1536091241,"~/.config/i3/config"
+'1  208  35  ~/.config/i3/config
+|4,49,208,35,1536091166,"~/.config/i3/config"
+'2  1  0  ~/.xinitrc
+|4,50,1,0,1536090909,"~/.xinitrc"
+'3  1  0  ~/.xinitrc
+|4,51,1,0,1536090909,"~/.xinitrc"
+'4  43  6  ~/.xinitrc
+|4,52,43,6,1536090795,"~/.xinitrc"
+'5  43  6  ~/.xinitrc
+|4,53,43,6,1536090795,"~/.xinitrc"
+'6  43  6  ~/.xinitrc
+|4,54,43,6,1536090795,"~/.xinitrc"
+'7  43  6  ~/.xinitrc
+|4,55,43,6,1536090795,"~/.xinitrc"
+'8  5  23  ~/launchcivv.sh
+|4,56,5,23,1535224553,"~/launchcivv.sh"
+'9  2  0  ~/launchcivv.sh
+|4,57,2,0,1535224374,"~/launchcivv.sh"
 
 # Jumplist (newest first):
--'  5  0  ~/dotfiles/backup_dots.sh
-|4,39,5,0,1534689406,"~/dotfiles/backup_dots.sh"
--'  1  0  ~/dotfiles/backup_dots.sh
-|4,39,1,0,1534689377,"~/dotfiles/backup_dots.sh"
--'  4  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,39,4,0,1534650951,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
--'  4  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,39,4,0,1534650951,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
--'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,39,1,0,1534650940,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
--'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,39,1,0,1534650940,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
--'  43  42  ~/.xinitrc
-|4,39,43,42,1534650938,"~/.xinitrc"
--'  43  42  ~/.xinitrc
-|4,39,43,42,1534650938,"~/.xinitrc"
--'  43  42  ~/.xinitrc
-|4,39,43,42,1534650938,"~/.xinitrc"
--'  43  42  ~/.xinitrc
-|4,39,43,42,1534650938,"~/.xinitrc"
+-'  208  4  ~/.config/i3/config
+|4,39,208,4,1536091241,"~/.config/i3/config"
+-'  2  0  ~/.config/i3/config
+|4,39,2,0,1536091237,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1536091236,"~/.config/i3/config"
+-'  208  35  ~/.config/i3/config
+|4,39,208,35,1536091166,"~/.config/i3/config"
+-'  195  0  ~/.config/i3/config
+|4,39,195,0,1536091138,"~/.config/i3/config"
+-'  195  0  ~/.config/i3/config
+|4,39,195,0,1536091138,"~/.config/i3/config"
+-'  43  0  ~/.xinitrc
+|4,39,43,0,1536091116,"~/.xinitrc"
+-'  43  0  ~/.xinitrc
+|4,39,43,0,1536091116,"~/.xinitrc"
 -'  1  0  ~/.xinitrc
-|4,39,1,0,1534650906,"~/.xinitrc"
+|4,39,1,0,1536091101,"~/.xinitrc"
 -'  1  0  ~/.xinitrc
-|4,39,1,0,1534650906,"~/.xinitrc"
+|4,39,1,0,1536091101,"~/.xinitrc"
 -'  1  0  ~/.xinitrc
-|4,39,1,0,1534650906,"~/.xinitrc"
+|4,39,1,0,1536090909,"~/.xinitrc"
 -'  1  0  ~/.xinitrc
-|4,39,1,0,1534650906,"~/.xinitrc"
--'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,39,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
--'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,39,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
--'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,39,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
--'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-|4,39,1,0,1534650902,"/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1534650656,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1534650652,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650649,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  114  16  ~/.zshrc
-|4,39,114,16,1534650633,"~/.zshrc"
--'  116  16  ~/.zshrc
-|4,39,116,16,1534650633,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650605,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1534650605,"~/.zshrc"
+|4,39,1,0,1536090909,"~/.xinitrc"
+-'  43  6  ~/.xinitrc
+|4,39,43,6,1536090795,"~/.xinitrc"
+-'  43  6  ~/.xinitrc
+|4,39,43,6,1536090795,"~/.xinitrc"
+-'  43  6  ~/.xinitrc
+|4,39,43,6,1536090795,"~/.xinitrc"
+-'  43  6  ~/.xinitrc
+|4,39,43,6,1536090795,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1536090731,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1536090731,"~/.xinitrc"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  5  23  ~/launchcivv.sh
+|4,39,5,23,1535224553,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224476,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  2  0  ~/launchcivv.sh
+|4,39,2,0,1535224374,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  1  0  ~/launchcivv.sh
+|4,39,1,0,1535224287,"~/launchcivv.sh"
+-'  44  33  ~/crazyflie-lib-python/swarm2018/autonomousSequence.py
+|4,39,44,33,1535127515,"~/crazyflie-lib-python/swarm2018/autonomousSequence.py"
+-'  44  33  ~/crazyflie-lib-python/swarm2018/autonomousSequence.py
+|4,39,44,33,1535127515,"~/crazyflie-lib-python/swarm2018/autonomousSequence.py"
 
 # History of marks within files (newest to oldest):
 
+> ~/.config/i3/config
+	*	1536091241	0
+	"	208	4
+	^	208	5
+	.	208	4
+	+	32	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	36	15
+	+	27	34
+	+	29	16
+	+	25	17
+	+	23	0
+	+	25	0
+	+	67	30
+	+	24	54
+	+	206	0
+	+	207	0
+	+	208	0
+	+	150	19
+	+	24	0
+	+	208	0
+	+	207	0
+	+	206	0
+	+	202	10
+	+	200	0
+	+	193	10
+	+	24	0
+	+	204	0
+	+	205	0
+	+	206	0
+	+	190	4
+	+	32	0
+	+	69	15
+	+	70	0
+	+	69	4
+	+	70	25
+	+	71	24
+	+	72	6
+	+	69	24
+	+	72	21
+	+	70	25
+	+	72	22
+	+	71	24
+	+	72	20
+	+	71	7
+	+	70	7
+	+	72	42
+	+	71	10
+	+	70	36
+	+	71	36
+	+	72	187
+	+	72	12
+	+	70	15
+	+	71	42
+	+	70	42
+	+	72	11
+	+	78	28
+	+	72	0
+	+	78	33
+	+	204	0
+	+	205	0
+	+	206	0
+	+	193	47
+	+	25	0
+	+	26	0
+	+	24	0
+	+	26	5
+	+	26	9
+	+	41	27
+	+	42	14
+	+	198	0
+	+	191	0
+	+	196	35
+	+	192	0
+	+	208	92
+	+	208	0
+	+	208	29
+	+	208	37
+	+	119	0
+	+	117	0
+	+	208	17
+	+	209	0
+	+	26	0
+	+	36	0
+	+	34	0
+	+	36	0
+	+	36	16
+	+	37	0
+	+	13	15
+	+	13	0
+	+	14	0
+	+	44	0
+	+	38	21
+	+	204	1
+	+	205	0
+	+	206	0
+	+	44	0
+	+	40	0
+	+	38	0
+	+	40	0
+	+	12	11
+	+	209	0
+	+	208	4
+
+> ~/.xinitrc
+	*	1536091122	0
+	"	43	0
+	.	43	0
+	+	43	0
+
+> ~/launchcivv.sh
+	*	1535224552	0
+	"	5	23
+	^	5	24
+	.	5	23
+	+	2	56
+	+	2	28
+	+	3	0
+	+	5	23
+
+> ~/crazyflie-lib-python/swarm2018/autonomousSequence.py
+	*	1535127513	0
+	"	44	33
+	^	44	34
+	.	44	33
+	+	44	33
+
+> ~/lps-node-firmware/tools/lpp/set_tx_power.py
+	*	1535124117	0
+	"	125	0
+
+> ~/crazyflie-firmware/makefile
+	*	1534867126	0
+	"	1	0
+
+> ~/crazyflie-firmware/src/config/config.h
+	*	1534865077	0
+	"	60	0
+
+> ~/Arduino/logic-analyzer-master/README.md
+	*	1534795226	0
+	"	17	0
+
 > ~/dotfiles/backup_dots.sh
-	*	1534689404	0
-	"	5	0
-	^	7	22
-	.	5	0
-	+	8	31
-	+	10	2
+	*	1534689579	0
+	"	8	26
+	^	8	27
+	.	8	26
+	+	9	31
+	+	11	2
 	+	5	46
 	+	5	0
 	+	6	18
-	+	7	21
+	+	8	21
 	+	5	0
+	+	7	26
+	+	8	26
+
+> ~/.gtkrc-2.0
+	*	1534689504	0
+	"	1	0
 
 > /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
 	*	1534650949	0
 	"	4	0
-
-> ~/.xinitrc
-	*	1534650938	0
-	"	43	42
-	^	43	43
-	.	43	42
-	+	44	0
-	+	43	42
 
 > ~/.zshrc
 	*	1534650654	0
@@ -577,112 +716,6 @@ $
 > /usr/include/X11/extensions/xcalibratewire.h
 	*	1534535769	0
 	"	1	0
-
-> ~/.config/i3/config
-	*	1534531144	0
-	"	12	11
-	^	12	12
-	.	12	11
-	+	22	16
-	+	22	0
-	+	32	0
-	+	31	0
-	+	32	0
-	+	33	0
-	+	36	15
-	+	27	34
-	+	29	16
-	+	25	17
-	+	23	0
-	+	25	0
-	+	67	30
-	+	24	54
-	+	206	0
-	+	207	0
-	+	208	0
-	+	150	19
-	+	24	0
-	+	208	0
-	+	207	0
-	+	206	0
-	+	202	10
-	+	200	0
-	+	193	10
-	+	24	0
-	+	204	0
-	+	205	0
-	+	206	0
-	+	190	4
-	+	32	0
-	+	69	15
-	+	70	0
-	+	69	4
-	+	70	25
-	+	71	24
-	+	72	6
-	+	69	24
-	+	72	21
-	+	70	25
-	+	72	22
-	+	71	24
-	+	72	20
-	+	71	7
-	+	70	7
-	+	72	42
-	+	71	10
-	+	70	36
-	+	71	36
-	+	72	187
-	+	72	12
-	+	70	15
-	+	71	42
-	+	70	42
-	+	72	11
-	+	78	28
-	+	72	0
-	+	78	33
-	+	204	0
-	+	205	0
-	+	206	0
-	+	193	47
-	+	25	0
-	+	26	0
-	+	24	0
-	+	26	5
-	+	26	9
-	+	41	27
-	+	42	14
-	+	198	0
-	+	191	0
-	+	196	35
-	+	192	0
-	+	208	92
-	+	208	0
-	+	208	29
-	+	208	37
-	+	119	0
-	+	117	0
-	+	208	17
-	+	209	0
-	+	26	0
-	+	36	0
-	+	34	0
-	+	36	0
-	+	36	16
-	+	37	0
-	+	13	15
-	+	13	0
-	+	14	0
-	+	44	0
-	+	38	21
-	+	204	1
-	+	205	0
-	+	206	0
-	+	44	0
-	+	40	0
-	+	38	0
-	+	40	0
-	+	12	11
 
 > ~/start_notifs.sh
 	*	1534531047	0
@@ -870,13 +903,6 @@ $
 > ~/crazyflie-lib-python/cflib/crtp/radiodriver.py
 	*	1534353496	0
 	"	90	74
-
-> ~/crazyflie-lib-python/swarm2018/autonomousSequence.py
-	*	1534353209	0
-	"	44	33
-	^	44	34
-	.	44	33
-	+	44	33
 
 > ~/crazyflie-lib-python/swarm2018/swarmSequence.py
 	*	1534353151	0
@@ -1436,27 +1462,3 @@ $
 > /tmp/python-build.20180620113542.25524.log
 	*	1529520234	0
 	"	7618	0
-
-> ~/pyenv/README.md
-	*	1529518382	0
-	"	135	0
-
-> ~/Downloads/Python-3.4.3/README
-	*	1529517158	0
-	"	23	0
-
-> ~/Downloads/Python-3.4.3/install-sh
-	*	1529517140	0
-	"	127	11
-
-> ~/crazyflie-lib-python/Makefile
-	*	1529516287	0
-	"	12	0
-
-> ~/crazyflie-lib-python/cflib/crazyflie/swarm.py
-	*	1529515697	0
-	"	72	0
-
-> ~/crazyflie-clients-python/README.md
-	*	1529441716	0
-	"	1	0

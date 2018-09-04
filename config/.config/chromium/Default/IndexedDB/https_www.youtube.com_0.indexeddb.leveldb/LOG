@@ -1,0 +1,3 @@
+2018/09/03-16:46:56.566 1433 Reusing MANIFEST /home/thomas/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/09/03-16:46:56.566 1433 Recovering log #3
+2018/09/03-16:46:56.569 1433 Reusing old log /home/thomas/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 

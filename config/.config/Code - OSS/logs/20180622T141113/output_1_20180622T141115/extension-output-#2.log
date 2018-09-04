@@ -1,0 +1,4 @@
+Visual Studio Code GitHub Extension
+git config --local --get remote.origin.url
+git --version
+Failed to connect to provider "Command failed: git config --local --get remote.origin.url\nfatal: --local can only be used inside a git repository\n\n"

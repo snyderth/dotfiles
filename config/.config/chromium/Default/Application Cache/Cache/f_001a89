@@ -1,0 +1,317 @@
+CACHE MANIFEST
+# v 1480.1846691416
+# 0
+
+CACHE:
+/static/comments/client/js/156131041-docos_binary_i18n.js
+https://ssl.gstatic.com/docs/common/d-icons27.png
+https://ssl.gstatic.com/images/icons/material/system/2x/arrow_drop_down_black_24dp.png
+https://ssl.gstatic.com/s2/profiles/images/silhouette96.png
+//ssl.gstatic.com/inputtools/images/ita_sprite2.png
+//ssl.gstatic.com/inputtools/js/kbd/2/ar.js
+//ssl.gstatic.com/inputtools/js/kbd/2/be.js
+//ssl.gstatic.com/inputtools/js/kbd/2/bn_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/bn_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ethi.js
+//ssl.gstatic.com/inputtools/js/kbd/2/bg.js
+//ssl.gstatic.com/inputtools/js/kbd/2/bg_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/el.js
+//ssl.gstatic.com/inputtools/js/kbd/2/fa.js
+//ssl.gstatic.com/inputtools/js/kbd/2/gu_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/gu_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/he.js
+//ssl.gstatic.com/inputtools/js/kbd/2/hi.js
+//ssl.gstatic.com/inputtools/js/kbd/2/deva_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/iw.js
+//ssl.gstatic.com/inputtools/js/kbd/2/kn_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/kn_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ml_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ml_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/or_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/or_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/guru_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/guru_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ru.js
+//ssl.gstatic.com/inputtools/js/kbd/2/sa_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/si.js
+//ssl.gstatic.com/inputtools/js/kbd/2/sr_cyrl.js
+//ssl.gstatic.com/inputtools/js/kbd/2/sr_latn.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ta_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ta_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/te_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/te_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/uk_101.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ur.js
+//ssl.gstatic.com/inputtools/js/kbd/2/vi_telex.js
+//ssl.gstatic.com/inputtools/js/kbd/2/vi_viqr.js
+//ssl.gstatic.com/inputtools/js/kbd/2/vi_tcvn.js
+https://docs.google.com/spreadsheets/offline/hs?ouid=ud7e200065d2ce04a&uc=en&jobset=prod&docosJobset=prod
+https://docs.google.com/spreadsheets/offline/edit?ouid=ud7e200065d2ce04a&uc=en&jobset=prod&docosJobset=prod
+https://docs.google.com/spreadsheets/offline/view?ouid=ud7e200065d2ce04a&uc=en&jobset=prod&docosJobset=prod
+https://docs.google.com/spreadsheets/offline/comment?ouid=ud7e200065d2ce04a&uc=en&jobset=prod&docosJobset=prod
+https://docs.google.com/spreadsheets/offline/viewcomments?ouid=ud7e200065d2ce04a&uc=en&jobset=prod&docosJobset=prod
+# b3995417f9535e82ac166fa27dd6827074d7171a
+/static/spreadsheets2/client/js/2753059524-ritz_waffle_integrated_i18n_core.js
+# 1179d6a0ee1caa223ea6e3737391180a33081d17
+/static/spreadsheets2/client/js/3062241378-ritz_waffle_integrated_i18n_impressions.js
+# 3a876ea58b31abb3c450aae0c483ce8fc8198d3f
+/static/spreadsheets2/client/js/902796807-ritz_waffle_integrated_i18n_shell.js
+# 54a73bdcc1eb200dbc0a692cec8d88c132492cf1
+/static/spreadsheets2/client/js/2278113178-ritz_waffle_integrated_i18n_slicereditor.js
+# 5fbbb4b5fed5a61f5b433cca1908fb15a5df229f
+/static/spreadsheets2/client/js/1041052736-ritz_waffle_integrated_i18n_slicers.js
+# 7e1778add7c738b47218f7ac0ee0bc25d1b1d2c1
+/static/spreadsheets2/client/js/3365520552-ritz_waffle_integrated_i18n_workbookthemeeditor.js
+# 430311229a5011a6fb45250d27ed72ec69579f09
+/static/spreadsheets2/client/js/1935442972-ritz_waffle_integrated_i18n_inputtools.js
+# b75484c867abf937c18151b4f5b318504d437970
+/static/spreadsheets2/client/js/4132361380-ritz_waffle_integrated_i18n_postshellbase.js
+# 4468e51417d216e43a0d71e847f4c896b1429190
+/static/spreadsheets2/client/js/2807246654-ritz_waffle_integrated_i18n_analytics.js
+# 6c9af6c3b957dc53799683fe90b758cedd3d5a3d
+/static/spreadsheets2/client/js/3595009028-ritz_waffle_integrated_i18n_assistant.js
+# 3232f979aa703c2a73968157bc12449374979dff
+/static/spreadsheets2/client/js/2617566182-ritz_waffle_integrated_i18n_banding.js
+# 0468c158952eaa6fb65f71aaa0fe7c8ec3ff3202
+/static/spreadsheets2/client/js/2879981564-ritz_waffle_integrated_i18n_charteditor.js
+# ef2345287bba38176b0dfa710fee4ac8cfb76a93
+/static/spreadsheets2/client/js/2613447037-ritz_waffle_integrated_i18n_charts.js
+# 914cbd10ea2ce752beb4348422b131b3248c5e6c
+/static/spreadsheets2/client/js/545857075-ritz_waffle_integrated_i18n_companion.js
+# 909340eb7fc035c98ce8507daaff9b3b1e5d1141
+/static/spreadsheets2/client/js/4180762136-ritz_waffle_integrated_i18n_conditionalformat.js
+# a8927132e6d7a7724eec13a7f4f6cc966363b172
+/static/spreadsheets2/client/js/1197613085-ritz_waffle_integrated_i18n_dataconnector.js
+# cea5165623436273790ab8799baa7a7985343437
+/static/spreadsheets2/client/js/2392695646-ritz_waffle_integrated_i18n_datepicker.js
+# 43d3848363b1d28541feb95b8c9f287b445e81f5
+/static/spreadsheets2/client/js/2315858147-ritz_waffle_integrated_i18n_dialogs.js
+# 819c0af8e877dc93fa393cd8e11c85c5425db0b5
+/static/spreadsheets2/client/js/3058029237-ritz_waffle_integrated_i18n_docos.js
+# 02630353ca41add49fbe683ff2abee3987237c7b
+/static/spreadsheets2/client/js/3384315557-ritz_waffle_integrated_i18n_drawings.js
+# 8c36026718d7c07555bffa0c95edaa0577aa76ff
+/static/spreadsheets2/client/js/1606605277-ritz_waffle_integrated_i18n_filterbar.js
+# 9cf27172100b9b65a34b155fe6c7e6b406e9bd8d
+/static/spreadsheets2/client/js/669701926-ritz_waffle_integrated_i18n_findreplace.js
+# 754b73cee7e78c9fbf543600cf036d72dcef4031
+/static/spreadsheets2/client/js/189630819-ritz_waffle_integrated_i18n_formbar.js
+# d1c4451d3b7f65f5e9ade78202e8d64bae702d10
+/static/spreadsheets2/client/js/3460801063-ritz_waffle_integrated_i18n_functionhelpcontent.js
+# 05840dc19e3b9dd6a649c706b01de34567561e09
+/static/spreadsheets2/client/js/1393934912-ritz_waffle_integrated_i18n_goto.js
+# 40ee36f559b133ca80da092a9896b705f3fede83
+/static/spreadsheets2/client/js/1184300553-ritz_waffle_integrated_i18n_hats.js
+# b7c229d27e34291b5b6235faba2411ac8a2bf628
+/static/spreadsheets2/client/js/3880235502-ritz_waffle_integrated_i18n_links.js
+# 1fbae62f2972d3bd7269d57341fe5a85e0b4668d
+/static/spreadsheets2/client/js/1823058555-ritz_waffle_integrated_i18n_namedrangespane.js
+# c66d92ca448d96b552409dc476cc208b3cb7c02a
+/static/spreadsheets2/client/js/895715411-ritz_waffle_integrated_i18n_offline.js
+# 7a209e6a509bb04b8e5e3f40edea9c8d45973f55
+/static/spreadsheets2/client/js/3255683165-ritz_waffle_integrated_i18n_organize.js
+# 1553c6912846e5e2f34d07413e9c8e561fd9dd99
+/static/spreadsheets2/client/js/1623328615-ritz_waffle_integrated_i18n_pickerbase.js
+# 37739fa21a49e5405a9d74cab4c1d49a1e9bd128
+/static/spreadsheets2/client/js/1219835939-ritz_waffle_integrated_i18n_printing.js
+# a88e29f2bc54a60d062d972a608f613d12f51dfe
+/static/spreadsheets2/client/js/2618228767-ritz_waffle_integrated_i18n_rangeprotection.js
+# 89edd9f0b4793cac581ff5ec58f5b0daf3c49b3b
+/static/spreadsheets2/client/js/3651364265-ritz_waffle_integrated_i18n_revisions.js
+# d04b33031978809f2f99501b99d2cb6580b3dbd7
+/static/spreadsheets2/client/js/361355387-ritz_waffle_integrated_i18n_ritzfilter.js
+# 68e59b474e9ca9ac8bed787c5591ed28f11f37f0
+/static/spreadsheets2/client/js/3243398063-ritz_waffle_integrated_i18n_ritzmaestro.js
+# 5cd4e98cf1d21c8314b2c659b7f7b2fd81408db0
+/static/spreadsheets2/client/js/3853778372-ritz_waffle_integrated_i18n_ritzprotectionpane.js
+# 383d4476abf67b5497eeffc9be17c6085831387d
+/static/spreadsheets2/client/js/4126465587-ritz_waffle_integrated_i18n_screenmagnifier.js
+# 2f2bc6e1efdb54d63a2e77b53369a34b64885c07
+/static/spreadsheets2/client/js/4104761513-ritz_waffle_integrated_i18n_screenreader.js
+# 0b3c1a1bd923b96e54dfc6759d77e6be69b5618f
+/static/spreadsheets2/client/js/229889144-ritz_waffle_integrated_i18n_spellcheck.js
+# 44fc0e208e93508e93aa4f523fa3cb7bec377ab2
+/static/spreadsheets2/client/js/1970180931-ritz_waffle_integrated_i18n_braille.js
+# ac830b66ad415bbc8d75f120765dfa4e1bd83858
+/static/spreadsheets2/client/js/967888505-ritz_waffle_integrated_i18n_images.js
+# 1a0d2439ec3097328d7990864b89eeb594119bec
+/static/spreadsheets2/client/js/4188279555-ritz_waffle_integrated_i18n_onepick.js
+# 667e49cf9194c9bb8ac21d5a5a924a3ce17c5cfb
+/static/spreadsheets2/client/js/829763034-ritz_waffle_integrated_i18n_queryeditor.js
+# 5b586709acb31101209f3137b6b5093cf58e445d
+/static/spreadsheets2/client/js/3702749593-ritz_waffle_integrated_i18n_ritzpivottables.js
+# c6a521e28851ebc7589e9d3ceb5fab59a1b3bb08
+/static/spreadsheets2/client/js/2351432220-ritz_waffle_integrated_i18n_viewer.js
+# 9ec40f01bfd7eee492b0303fd2c20bcb2a117e37
+/static/spreadsheets2/client/css/1322673106-waffle_k_ltr.css
+https://ssl.gstatic.com/docs/clipboard/icons3.png
+https://ssl.gstatic.com/docs/common/addon_docs_promo.svg
+https://ssl.gstatic.com/docs/common/addon_forms_promo.svg
+https://ssl.gstatic.com/docs/common/addon_sheets_promo.svg
+https://ssl.gstatic.com/docs/common/arrow_spinner.svg
+https://ssl.gstatic.com/docs/common/branding_sprite1.svg
+https://ssl.gstatic.com/docs/common/h_sprite34.svg
+https://ssl.gstatic.com/docs/common/jfk_sprite186.png
+https://ssl.gstatic.com/docs/common/jfk_sprite_hdpi124.png
+https://ssl.gstatic.com/docs/common/loading_animation.gif
+https://ssl.gstatic.com/docs/common/material_common_sprite62.svg
+https://ssl.gstatic.com/docs/common/material_common_sprite62_grey_medium.svg
+https://ssl.gstatic.com/docs/common/material_offline_sprite2.svg
+https://ssl.gstatic.com/docs/common/mobileweb_sprite1.png
+https://ssl.gstatic.com/docs/common/mobileweb_sprite_hdpi1.png
+https://ssl.gstatic.com/docs/common/menu_feature_sprite7.svg
+https://ssl.gstatic.com/docs/common/promo_arrows-0.png
+https://ssl.gstatic.com/docs/common/promo_close-0.png
+https://ssl.gstatic.com/docs/common/revisions_sprite1.svg
+https://ssl.gstatic.com/docs/common/shortcut_sprite1.png
+https://ssl.gstatic.com/docs/picker/images/loading_spinner.svg
+https://ssl.gstatic.com/docs/picker/images/loading_spinner_small.svg
+https://ssl.gstatic.com/docs/picker/images/no_search.png
+https://ssl.gstatic.com/docs/presentations/images/punch_viewer_sprite6.png
+https://ssl.gstatic.com/docs/presentations/images/punch_viewer_sprite_hdpi6.png
+https://ssl.gstatic.com/docs/script/images/spin-wait.gif
+https://ssl.gstatic.com/docs/templates/ill_empty_gallery_1x_web_160dp.png
+https://ssl.gstatic.com/docs/templates/ill_empty_gallery_2x_web_160dp.png
+https://ssl.gstatic.com/editor/button-bg.png
+https://ssl.gstatic.com/editor/editortoolbar.png
+https://ssl.gstatic.com/gb/images/i1_61143e6d.png
+https://ssl.gstatic.com/images/icons/material/system/1x/arrow_drop_down_black_24dp.png
+https://ssl.gstatic.com/images/icons/material/system/svg/close_18px.svg
+https://ssl.gstatic.com/images/icons/material/system/svg/keyboard_arrow_left_24px.svg
+https://ssl.gstatic.com/images/icons/material/system/svg/keyboard_arrow_right_24px.svg
+https://ssl.gstatic.com/images/icons/material/system/svg/search_24px.svg
+https://ssl.gstatic.com/inputtools/images/lens.svg
+https://ssl.gstatic.com/inputtools/images/ita_sprite6.png
+https://ssl.gstatic.com/inputtools/images/reset.png
+https://ssl.gstatic.com/ui/v1/activityindicator/offline.png
+https://ssl.gstatic.com/ui/v1/activityindicator/offline_16.png
+https://ssl.gstatic.com/ui/v1/bubble/close-x.png
+https://ssl.gstatic.com/ui/v1/button/search-white.png
+https://ssl.gstatic.com/ui/v1/colorpicker/checkmark.png
+https://ssl.gstatic.com/ui/v1/dialog/close-x.png
+https://ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow.png
+https://ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow-up-down.png
+https://ssl.gstatic.com/ui/v1/disclosure/light-grey-disclosure-arrow-down.png
+https://ssl.gstatic.com/ui/v1/disclosure/small-grey-disclosure-arrow-down.png
+https://ssl.gstatic.com/ui/v1/icons/common/down_arrow.png
+https://ssl.gstatic.com/ui/v1/icons/common/settings.png
+https://ssl.gstatic.com/ui/v1/icons/common/x_8px.png
+https://ssl.gstatic.com/ui/v1/icons/common/info_black2.svg
+https://ssl.gstatic.com/ui/v1/icons/common/info_blue.svg
+https://ssl.gstatic.com/ui/v1/icons/common/info_white2.svg
+https://ssl.gstatic.com/ui/v1/menu/checkmark-partial.png
+https://ssl.gstatic.com/ui/v1/menu/checkmark-partial_2x.png
+https://ssl.gstatic.com/ui/v1/menu/checkmark.png
+https://ssl.gstatic.com/ui/v1/menu/checkmark_2x.png
+https://ssl.gstatic.com/ui/v1/radiobutton/checked.png
+https://ssl.gstatic.com/ui/v1/radiobutton/checked-disabled.png
+https://ssl.gstatic.com/ui/v1/radiobutton/checked_focused.png
+https://ssl.gstatic.com/ui/v1/radiobutton/unchecked.png
+https://ssl.gstatic.com/ui/v1/radiobutton/unchecked-disabled.png
+https://ssl.gstatic.com/ui/v1/radiobutton/unchecked_focused.png
+https://ssl.gstatic.com/ui/v1/star/star4.png
+https://ssl.gstatic.com/ui/v1/star/star4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-hover4.png
+https://ssl.gstatic.com/ui/v1/star/star-hover4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-active4.png
+https://ssl.gstatic.com/ui/v1/star/star-active4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-lit4.png
+https://ssl.gstatic.com/ui/v1/star/star-lit4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-lit-active4.png
+https://ssl.gstatic.com/ui/v1/star/star-lit-active4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-lit-hover4.png
+https://ssl.gstatic.com/ui/v1/star/star-lit-hover4_2x.png
+https://ssl.gstatic.com/docs/documents/share/images/ess-icons-4.png
+https://ssl.gstatic.com/docs/documents/share/images/icons-9.png
+https://ssl.gstatic.com/docs/documents/share/images/spinner-1.gif
+https://ssl.gstatic.com/docs/documents/share/images/sprite-22.svg
+https://ssl.gstatic.com/closure/check-sprite.gif
+https://ssl.gstatic.com/closure/tree/I.png
+https://ssl.gstatic.com/closure/tree/tree.png
+https://ssl.gstatic.com/docs/common/icons9.png
+https://ssl.gstatic.com/docs/common/logo/docs_logo_sm.gif
+https://ssl.gstatic.com/docs/common/material_common_sprite62_green.svg
+https://ssl.gstatic.com/docs/common/product/spreadsheets_lockup1.png
+https://ssl.gstatic.com/docs/common/toastBackFill-0.png
+https://ssl.gstatic.com/docs/common/toastBackTop-ltr-1.png
+https://ssl.gstatic.com/docs/common/toastBackTop-rtl-1.png
+https://ssl.gstatic.com/docs/documents/share/images/icons-7.png
+https://ssl.gstatic.com/docs/drawings/images/hsva-sprite-sm.gif
+https://ssl.gstatic.com/docs/drawings/images/hsva-sprite-sm.png
+https://ssl.gstatic.com/docs/spreadsheets/cursors/openhand_8_8.cur
+https://ssl.gstatic.com/docs/spreadsheets/dbx-welcome-banner.png
+https://ssl.gstatic.com/docs/spreadsheets/icon-dropdn.gif
+https://ssl.gstatic.com/docs/spreadsheets/MainMenuVerSprite007.png
+https://ssl.gstatic.com/docs/spreadsheets/spinner.gif
+https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png
+https://ssl.gstatic.com/editor/toolbar-bg.png
+https://ssl.gstatic.com/ui/v1/disclosure/dark-grey-disclosure-arrow-down.png
+https://ssl.gstatic.com/charts/static/alert.png
+https://ssl.gstatic.com/charts/static/mini3.png
+https://ssl.gstatic.com/charts/static/stripes.png
+https://ssl.gstatic.com/charts/static/thumbs17.png
+https://ssl.gstatic.com/charts/static/thumbs18.png
+https://ssl.gstatic.com/docs/common/jfk_sprite40.png
+https://ssl.gstatic.com/charts/static/table-title-bg.gif
+/static/spreadsheets2/client/js/3419979051-homescreen_binary_i18n_core.js
+/static/spreadsheets2/client/js/1426836883-homescreen_binary_i18n_app.js
+/static/spreadsheets2/client/js/2865260543-homescreen_binary_i18n_offline.js
+/static/spreadsheets2/client/js/1380173753-homescreen_binary_i18n_wiz.js
+# b9bba4ea0619ff32186cefe8f7cf90ccd2a4fcd2
+/static/spreadsheets2/client/css/919163517-homescreen_css_ltr.css
+# c0b26db7503611b6901f9486b3470b51c7afb947
+/static/spreadsheets2/client/css/1181270611-homescreen_quantum_css_gecko_ltr.css
+# 125a91848b11c5c1deef51b1c7d8a9e21a92a208
+/static/spreadsheets2/client/css/1752473126-homescreen_quantum_css_ie_ltr.css
+# b2b9920364552707823ad5af9472eb493e979c72
+/static/spreadsheets2/client/css/2122453895-homescreen_quantum_css_webkit_ltr.css
+/static/spreadsheets2/0c61e9657d/ritz_offline/ritzcalcworker_offline.nocache.js
+/static/spreadsheets2/0c61e9657d/ritz_offline/6C88B21AD7FF2EAC3CEE63B45BDDA9BB.cache.js
+/static/spreadsheets2/0c61e9657d/ritz_offline/365DA1668D9679646C8A6B64B846A541.cache.js
+https://docs.google.com/spreadsheets/offline/blank
+
+FALLBACK:
+
+NETWORK:
+/comments/u/
+//ssl.gstatic.com/inputtools
+//www.google.com/inputtools
+https://ssl.gstatic.com/docs/common/netcheck.gif
+//ssl.gstatic.com/gb/
+//static.corp.google.com/gb/
+https://docs.google.com/spreadsheets/font/getmetadata
+//themes.googleusercontent.com
+//fonts.gstatic.com
+//www-kixfonts-opensocial.googleusercontent.com
+//lh3.googleusercontent.com
+//lh4.googleusercontent.com
+//lh5.googleusercontent.com
+//lh6.googleusercontent.com
+https://docs.google.com/spreadsheets/onegoogle
+https://docs.google.com/spreadsheets/prefs
+https://docs.google.com/spreadsheets/scripts/config
+https://docs.google.com/spreadsheets/scripts/cancel
+https://docs.google.com/spreadsheets/scripts/invoke
+https://docs.google.com/spreadsheets/scripts/resume
+https://docs.google.com/spreadsheets/scripts/disableitem
+https://docs.google.com/spreadsheets/scripts/enableitem
+https://docs.google.com/spreadsheets/scripts/getitems
+https://docs.google.com/spreadsheets/scripts/lookupstoreitem
+https://docs.google.com/spreadsheets/scripts/installitem
+https://docs.google.com/spreadsheets/scripts/oauthurl
+https://docs.google.com/spreadsheets/scripts/sendissuereport
+https://docs.google.com/spreadsheets/scripts/uninstallitem
+https://docs.google.com/spreadsheets/scripts/libraries
+https://docs.google.com/spreadsheets/scripts/uiready
+https://docs.google.com/spreadsheets/save
+https://docs.google.com/spreadsheets/active
+https://docs.google.com/spreadsheets/chat
+https://docs.google.com/spreadsheets/leave
+https://docs.google.com/spreadsheets/revisions
+https://docs.google.com/spreadsheets/lastviewed
+https://docs.google.com/spreadsheets/hibernatestat
+https://docs.google.com/spreadsheets/bind
+https://docs.google.com/spreadsheets/test
+https://docs.google.com/spreadsheets/publishingsettings
+https://docs.google.com/spreadsheets/publishsettings
+*

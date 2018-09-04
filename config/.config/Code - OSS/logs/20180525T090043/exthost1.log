@@ -1,0 +1,20 @@
+[2018-05-25 09:00:46.849] [exthost1] [info] extension host started
+[2018-05-25 09:00:46.890] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-25 09:00:46.890] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/emmet/out/extension
+[2018-05-25 09:00:47.010] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-25 09:00:47.011] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/git/out/main
+[2018-05-25 09:00:47.321] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-25 09:00:47.321] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/merge-conflict/out/extension
+[2018-05-25 09:00:47.342] [exthost1] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"activationEvent":"*"}
+[2018-05-25 09:00:47.342] [exthost1] [info] ExtensionService#loadCommonJSModule /home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.28.1/out/src/main
+[2018-05-25 09:00:47.858] [exthost1] [info] eager extensions activated
+[2018-05-25 09:00:59.251] [exthost1] [info] extension host started
+[2018-05-25 09:00:59.311] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-25 09:00:59.311] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/emmet/out/extension
+[2018-05-25 09:00:59.419] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-25 09:00:59.419] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/git/out/main
+[2018-05-25 09:00:59.724] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-25 09:00:59.724] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code-oss/resources/app/extensions/merge-conflict/out/extension
+[2018-05-25 09:00:59.746] [exthost1] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"activationEvent":"*"}
+[2018-05-25 09:00:59.746] [exthost1] [info] ExtensionService#loadCommonJSModule /home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.28.1/out/src/main
+[2018-05-25 09:01:00.186] [exthost1] [info] eager extensions activated

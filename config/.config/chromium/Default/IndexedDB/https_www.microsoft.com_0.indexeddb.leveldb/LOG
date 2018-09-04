@@ -1,0 +1,3 @@
+2018/08/19-07:32:10.725 1898 Reusing MANIFEST /home/thomas/.config/chromium/Default/IndexedDB/https_www.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/08/19-07:32:10.726 1898 Recovering log #3
+2018/08/19-07:32:10.726 1898 Reusing old log /home/thomas/.config/chromium/Default/IndexedDB/https_www.microsoft.com_0.indexeddb.leveldb/000003.log 

@@ -1,0 +1,22 @@
+VirtualBox GUI VM Selector Window 5.2.8 r120774 linux.amd64 (Feb 28 2018 07:46:09) release log
+00:00:00.486102 Log opened 2018-03-25T22:33:07.420801000Z
+00:00:00.486104 Build Type: release
+00:00:00.486106 OS Product: Linux
+00:00:00.486107 OS Release: 4.15.11-1-ARCH
+00:00:00.486109 OS Version: #1 SMP PREEMPT Mon Mar 19 18:21:03 UTC 2018
+00:00:00.486131 DMI Product Name: XPS13 9333
+00:00:00.486140 DMI Product Version: 
+00:00:00.486187 Host RAM: 7884MB (7.7GB) total, 7122MB (6.9GB) available
+00:00:00.486191 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.486192 Process ID: 4037
+00:00:00.486193 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.486217 Qt version: 5.10.1
+00:00:00.528376 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.767864 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1918x1056
+00:00:00.799560 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:00.800985 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.835739 refreshCertificates/#1: InMem.Cert.TbsCertificate.T3.Extensions.papItems[#].ExtnValue.NameConstraints.T0.PermittedSubtrees.papItems[#]: Unexpected sequence type/flags: 0x2/0x80 (expected 0x10/0x20)
+00:00:00.838331 refreshCertificates/#3: Found 1/152 SSL certs we/you trust (previously 1/152).
+00:00:29.029648 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:30.887142 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:48.030612 GUI: UIMediumEnumerator: Medium-enumeration finished!

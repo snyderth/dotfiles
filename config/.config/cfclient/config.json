@@ -1,0 +1,28 @@
+{
+  "input_device": "Microsoft X-Box One S pad",
+  "link_uri": "radio://0/100/2M/E7E7E7E7E4",
+  "flightmode": "Normal",
+  "open_tabs": "Flight Control,Loco Positioning,Console,Log Blocks,Plotter,Parameters,Log TOC",
+  "trim_pitch": 0.0,
+  "slew_limit": 45,
+  "slew_rate": 30,
+  "trim_roll": 0.0,
+  "max_thrust": 80,
+  "min_thrust": 25,
+  "max_yaw": 200,
+  "max_rp": 30,
+  "client_side_xmode": false,
+  "auto_reconnect": false,
+  "device_config_mapping": {
+    "Microsoft X-Box One S pad": "xbone"
+  },
+  "enable_debug_driver": false,
+  "input_device_blacklist": "(VirtualBox|VMware)",
+  "ui_update_period": 100,
+  "enable_zmq_input": false,
+  "window_size": [
+    943,
+    1028
+  ],
+  "assistedControl": 0
+}

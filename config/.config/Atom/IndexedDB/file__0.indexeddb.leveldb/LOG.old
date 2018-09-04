@@ -1,0 +1,15 @@
+2018/08/28-09:27:36.029 27660 Reusing MANIFEST /home/thomas/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2018/08/28-09:27:36.029 27660 Recovering log #174
+2018/08/28-09:27:36.039 27660 Reusing old log /home/thomas/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000174.log 
+2018/08/28-10:11:33.476 772 Compacting 1@1 + 1@2 files
+2018/08/28-10:11:33.507 772 Generated table #177@1: 89 keys, 166897 bytes
+2018/08/28-10:11:33.507 772 Compacted 1@1 + 1@2 files => 166897 bytes
+2018/08/28-10:11:33.515 772 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/08/28-10:11:33.515 772 Delete type=2 #175
+2018/08/28-10:11:33.515 772 Delete type=2 #172
+2018/08/28-10:11:48.749 772 Level-0 table #179: started
+2018/08/28-10:11:48.774 772 Level-0 table #179: 1307449 bytes OK
+2018/08/28-10:11:48.777 772 Delete type=0 #174
+2018/08/28-11:11:59.546 772 Level-0 table #181: started
+2018/08/28-11:11:59.573 772 Level-0 table #181: 1248893 bytes OK
+2018/08/28-11:11:59.579 772 Delete type=0 #178

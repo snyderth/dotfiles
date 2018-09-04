@@ -1,0 +1,19 @@
+[2018-06-20 17:43:40.763] [sharedprocess] [info] main {"machineId":"247760a9795d64380b21f5e5419496ae5f44fc0007968f6aac3b18a1b0d1d1d8"}
+[2018-06-20 17:43:40.816] [sharedprocess] [info] Scanned user extensions: 3
+[2018-06-20 17:43:40.921] [sharedprocess] [info] Scanned system extensions: 69
+[2018-06-20 17:43:43.072] [sharedprocess] [info] Scanned user extensions: 3
+[2018-06-20 17:43:43.073] [sharedprocess] [info] Scanned user extensions: 3
+[2018-06-20 17:43:43.083] [sharedprocess] [info] Scanned user extensions: 3
+[2018-06-20 17:43:43.237] [sharedprocess] [info] Scanned system extensions: 69
+[2018-06-20 17:43:43.244] [sharedprocess] [info] Scanned system extensions: 69
+[2018-06-20 17:43:44.635] [sharedprocess] [info] Scanned user extensions: 3
+[2018-06-20 17:43:44.699] [sharedprocess] [info] Installing extension: vscode-github
+[2018-06-20 17:43:44.705] [sharedprocess] [info] Scanned user extensions: 3
+[2018-06-20 17:43:45.551] [sharedprocess] [info] Downloaded extension: vscode-github
+[2018-06-20 17:43:49.427] [sharedprocess] [info] Extracted extension to /home/thomas/.vscode-oss/extensions/.KnisterPeter.vscode-github-0.29.0: KnisterPeter.vscode-github-0.29.0
+[2018-06-20 17:43:49.427] [sharedprocess] [info] Renamed to /home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.29.0
+[2018-06-20 17:43:49.427] [sharedprocess] [info] Installation completed. KnisterPeter.vscode-github-0.29.0
+[2018-06-20 17:43:49.442] [sharedprocess] [info] Extensions installed successfully: KnisterPeter.vscode-github
+[2018-06-20 17:43:49.560] [sharedprocess] [info] Scanned user extensions: 3
+[2018-06-20 17:43:49.610] [sharedprocess] [info] Scanned system extensions: 69
+[2018-06-20 17:44:20.769] [sharedprocess] [info] Starting to clean up unused language packs.

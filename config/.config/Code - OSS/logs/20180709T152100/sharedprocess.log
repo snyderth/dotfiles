@@ -1,0 +1,24 @@
+[2018-07-09 15:21:02.149] [sharedprocess] [info] main {"machineId":"247760a9795d64380b21f5e5419496ae5f44fc0007968f6aac3b18a1b0d1d1d8"}
+[2018-07-09 15:21:02.199] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:21:02.285] [sharedprocess] [info] Scanned system extensions: 69
+[2018-07-09 15:21:04.109] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:21:04.125] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:21:04.131] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:21:04.158] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:21:04.342] [sharedprocess] [info] Scanned system extensions: 69
+[2018-07-09 15:21:04.350] [sharedprocess] [info] Scanned system extensions: 69
+[2018-07-09 15:21:04.357] [sharedprocess] [info] Scanned system extensions: 69
+[2018-07-09 15:21:05.826] [sharedprocess] [info] Installing extension: vscode-github
+[2018-07-09 15:21:05.831] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:21:06.633] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:21:08.152] [sharedprocess] [info] Downloaded extension: vscode-github
+[2018-07-09 15:21:10.824] [sharedprocess] [info] Extracted extension to /home/thomas/.vscode-oss/extensions/.KnisterPeter.vscode-github-0.30.0: KnisterPeter.vscode-github-0.30.0
+[2018-07-09 15:21:10.824] [sharedprocess] [info] Renamed to /home/thomas/.vscode-oss/extensions/KnisterPeter.vscode-github-0.30.0
+[2018-07-09 15:21:10.824] [sharedprocess] [info] Installation completed. KnisterPeter.vscode-github-0.30.0
+[2018-07-09 15:21:10.839] [sharedprocess] [info] Extensions installed successfully: KnisterPeter.vscode-github
+[2018-07-09 15:21:10.958] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:21:11.010] [sharedprocess] [info] Scanned system extensions: 69
+[2018-07-09 15:21:42.158] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-07-09 15:26:06.675] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:31:06.687] [sharedprocess] [info] Scanned user extensions: 3
+[2018-07-09 15:36:06.705] [sharedprocess] [info] Scanned user extensions: 3

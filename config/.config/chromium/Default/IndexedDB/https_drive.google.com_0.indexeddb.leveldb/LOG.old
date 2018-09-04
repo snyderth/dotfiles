@@ -1,0 +1,38 @@
+2018/09/04-11:08:47.683 4518 Reusing MANIFEST /home/thomas/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/09/04-11:08:47.684 4518 Recovering log #887
+2018/09/04-11:08:47.700 4518 Reusing old log /home/thomas/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000887.log 
+2018/09/04-11:10:10.450 5118 Compacting 2@0 + 2@1 files
+2018/09/04-11:10:10.529 5118 Generated table #890@0: 84 keys, 4404623 bytes
+2018/09/04-11:10:10.541 5118 Generated table #891@0: 94 keys, 276650 bytes
+2018/09/04-11:10:10.541 5118 Compacted 2@0 + 2@1 files => 4681273 bytes
+2018/09/04-11:10:10.554 5118 compacted to: files[ 0 2 4 0 0 0 0 ]
+2018/09/04-11:10:10.554 5118 Delete type=2 #885
+2018/09/04-11:10:10.555 5118 Delete type=2 #881
+2018/09/04-11:10:10.558 5118 Delete type=2 #888
+2018/09/04-11:10:10.558 5118 Delete type=2 #882
+2018/09/04-11:10:36.737 5118 Level-0 table #893: started
+2018/09/04-11:10:36.792 5118 Level-0 table #893: 5865228 bytes OK
+2018/09/04-11:10:36.797 5118 Delete type=0 #887
+2018/09/04-11:10:39.027 5118 Level-0 table #895: started
+2018/09/04-11:10:39.072 5118 Level-0 table #895: 5101162 bytes OK
+2018/09/04-11:10:39.077 5118 Delete type=0 #892
+2018/09/04-11:10:40.146 5118 Level-0 table #897: started
+2018/09/04-11:10:40.192 5118 Level-0 table #897: 5475476 bytes OK
+2018/09/04-11:10:40.195 5118 Delete type=0 #894
+2018/09/04-11:11:17.379 5118 Level-0 table #899: started
+2018/09/04-11:11:17.423 5118 Level-0 table #899: 5474974 bytes OK
+2018/09/04-11:11:17.426 5118 Delete type=0 #896
+2018/09/04-11:11:17.427 5118 Compacting 4@0 + 2@1 files
+2018/09/04-11:11:17.502 5118 Generated table #900@0: 84 keys, 5570384 bytes
+2018/09/04-11:11:17.513 5118 Generated table #901@0: 94 keys, 382872 bytes
+2018/09/04-11:11:17.513 5118 Compacted 4@0 + 2@1 files => 5953256 bytes
+2018/09/04-11:11:17.521 5118 compacted to: files[ 0 2 4 0 0 0 0 ]
+2018/09/04-11:11:17.521 5118 Delete type=2 #891
+2018/09/04-11:11:17.522 5118 Delete type=2 #893
+2018/09/04-11:11:17.523 5118 Delete type=2 #895
+2018/09/04-11:11:17.524 5118 Delete type=2 #890
+2018/09/04-11:11:17.525 5118 Delete type=2 #899
+2018/09/04-11:11:17.526 5118 Delete type=2 #897
+2018/09/04-11:20:02.263 5118 Level-0 table #903: started
+2018/09/04-11:20:02.311 5118 Level-0 table #903: 5474974 bytes OK
+2018/09/04-11:20:02.318 5118 Delete type=0 #898

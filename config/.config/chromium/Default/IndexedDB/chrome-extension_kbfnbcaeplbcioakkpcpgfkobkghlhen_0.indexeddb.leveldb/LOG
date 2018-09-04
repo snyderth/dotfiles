@@ -1,0 +1,3 @@
+2018/09/04-11:08:36.589 4516 Reusing MANIFEST /home/thomas/.config/chromium/Default/IndexedDB/chrome-extension_kbfnbcaeplbcioakkpcpgfkobkghlhen_0.indexeddb.leveldb/MANIFEST-000001
+2018/09/04-11:08:36.589 4516 Recovering log #3
+2018/09/04-11:08:36.616 4516 Reusing old log /home/thomas/.config/chromium/Default/IndexedDB/chrome-extension_kbfnbcaeplbcioakkpcpgfkobkghlhen_0.indexeddb.leveldb/000003.log 
